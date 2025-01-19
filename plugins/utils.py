@@ -64,3 +64,4 @@ async def create_image(encoded_prompt: str) -> BytesIO | None:
     except Exception as exc:
         print(f'An unexpected error occurred: {exc}')
     return None
+
