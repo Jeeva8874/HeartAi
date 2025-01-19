@@ -1,9 +1,8 @@
-# ©️biisal jai shree krishna 😎
 from typing import Any
 from info import *
 from motor import motor_asyncio
 client: motor_asyncio.AsyncIOMotorClient[Any] = motor_asyncio.AsyncIOMotorClient(MONGO_URL)
-db = client["biisal"]
+db = client["HeartThief"]
 
 
 class User:
