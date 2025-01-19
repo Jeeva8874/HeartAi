@@ -1,4 +1,3 @@
-# ©️biisal jai shree krishna 😎
 from pyrogram.client import Client
 from info import *
 
@@ -6,7 +5,7 @@ from info import *
 class Bot(Client):
     def __init__(self):
         super().__init__( # type:ignore
-            name="Bisal Gptt",
+            name="Heart Gptt",
             api_id=API_ID,
             api_hash=API_HASH,
             bot_token=BOT_TOKEN,
