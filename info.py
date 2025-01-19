@@ -10,7 +10,7 @@ BOT_TOKEN = environ.get("BOT_TOKEN" , "7739144267:AAEES7LHsbIDqivIP2Huug4PY-08Ya
 ADMIN = int(environ.get("ADMIN" , "6762558871"))
 CHAT_GROUP = int(environ.get("CHAT_GROUP", "-1002162863916"))
 LOG_CHANNEL = environ.get("LOG_CHANNEL", "-1002391269521")
-MONGO_URL = environ.get("MONGO_URL" , "mongodb://localhost:27017")
+MONGO_URL = environ.get("MONGO_URL" , "mongodb+srv://jeevanantham8157:1055221@heartai.9wl5t.mongodb.net/?retryWrites=true&w=majority&appName=HeartAI")
 AUTH_CHANNEL = int(
     environ.get("AUTH_CHANNEL", "-1002367524502")
 )
