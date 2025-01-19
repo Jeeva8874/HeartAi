@@ -31,3 +31,4 @@ async def get_fsub(bot : Client, message: Message ) -> bool:
         )
         return False
     return True
+
