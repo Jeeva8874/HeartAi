@@ -1,4 +1,3 @@
-# ©️biisal jai shree krishna 😎
 from os import environ
 from dotenv import load_dotenv
 
