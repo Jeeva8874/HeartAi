@@ -15,8 +15,8 @@ AUTH_CHANNEL = int(
     environ.get("AUTH_CHANNEL", "-1002367524502")
 )
 FSUB = environ.get("FSUB", True)
-STICKERS_IDS = (
-    "CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME"
+#STICKERS_IDS = (
+    ""
 ).split()
 COOL_TIMER = 20  # keep this atleast 20
 ONLY_SCAN_IN_GRP = environ.get(
