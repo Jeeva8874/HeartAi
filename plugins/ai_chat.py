@@ -103,7 +103,7 @@ async def gen_image(client: Client, message: Message):
     try:
         await users.get_or_add_user(message.from_user.id, message.from_user.first_name)
         if FSUB and not await get_fsub(client, message):return
-        sticker = await message.reply_sticker(random.choice(STICKERS_IDS)) # type:ignore
+        #sticker = await message.reply_sticker(random.choice(STICKERS_IDS)) # type:ignore
         prompt = message.text.replace("/gen", "").strip()
         encoded_prompt = prompt.replace("\n", " ")
         if not prompt:
@@ -129,7 +129,7 @@ async def ai_res(client: Client, message: Message ):
     try:
         await users.get_or_add_user(message.from_user.id, message.from_user.first_name)
         if FSUB and not await get_fsub(client, message):return
-        sticker = await message.reply_sticker(random.choice(STICKERS_IDS)) # type:ignore
+        #sticker = await message.reply_sticker(random.choice(STICKERS_IDS)) # type:ignore
         text = message.text
         if text.startswith('/'):
             return
