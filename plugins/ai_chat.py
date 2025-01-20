@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.client import Client
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton 
 from pyrogram.errors import FloodWait
-from info import *
+from info import REACTIONS
 from plugins.utils import create_image, get_ai_response 
 from .db import *
 from .fsub import get_fsub
